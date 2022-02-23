@@ -1,0 +1,67 @@
+.page{
+    width: 800px;
+    height: auto;
+}
+.headpart{
+    width: 1320px;
+    height: 155px;
+    border-style: groove;
+    background-image: url("logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footpart{
+    width: 1320px;
+    height: 155px;
+    background-image: url("foot.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tab{
+    color: blue;
+}
+.panel{
+    width: 400px;
+}
+.panel-heading{
+    background-color:rgb(51, 51, 224);
+    color: white;
+}
+.container>.panel-group>.panel-default3{
+    width: 500px;
+    height: 300px;
+    border-style: groove;
+    float: right;
+    display: inline-block;
+}
+.direct{
+    border-style: groove;
+    width: 470px;
+    height: 250px;
+    background-color: rgba(122, 120, 120, 0.466);
+}
+.direct>h2{
+    text-align: center;
+    color: green;
+}
+.direct>.move1{
+    width: 100%;
+    height: 75%;
+    direction: up;
+}
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    }
+    .end>h3{
+        background-color: rgb(54, 54, 238);
+    }
